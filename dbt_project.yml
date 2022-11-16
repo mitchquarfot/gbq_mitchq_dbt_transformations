@@ -33,6 +33,26 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   gbq_mitchq_dbt_transformations:
-    # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+
+vars: 
+  fivetran_log:
+    # fivetran_log_database: MITCH
+    fivetran_log_schema: FIVETRAN_LOG_MQ
+
+    fivetran_log_using_transformations: false
+    fivetran_log_using_triggers: false
+ 
+  facebook_ads_source:
+    facebook_ads_schema: FACEBOOK_ADS_MQ_TEST
+
+  google_ads_source:
+    google_ads_schema: ADWORDS_MQ_TEST
+
+  linkedin_source:
+    linkedin_source_schema: LINKEDIN_ADS
+
+  netsuite_source:
+    netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
+  
+  asana_source:
+    asana_schema: ASANA_MQ_DEMO
