@@ -1,0 +1,15 @@
+packages:
+  - package: fivetran/fivetran_log
+    version: 0.6.3
+  - package: fivetran/ad_reporting
+    version: 1.0.1
+  - package: fivetran/netsuite
+    version: 0.6.2
+  - package: fivetran/netsuite_source
+    version: 0.5.1
+  - package: fivetran/asana
+    version: 0.6.0
+  - package: fivetran/apple_store
+    version: 0.1.0
+  - package: fivetran/zendesk
+    version: 0.9.1
