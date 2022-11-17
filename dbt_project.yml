@@ -37,22 +37,22 @@ models:
 vars: 
   fivetran_log:
     # fivetran_log_database: MITCH
-    fivetran_log_schema: FIVETRAN_LOG_MQ
+    fivetran_log_schema: fivetran_log_mq
 
     fivetran_log_using_transformations: false
     fivetran_log_using_triggers: false
  
   facebook_ads_source:
-    facebook_ads_schema: FACEBOOK_ADS_MQ_TEST
+    facebook_ads_schema: facebook_ads_mq_test
 
   google_ads_source:
-    google_ads_schema: ADWORDS_MQ_TEST
+    google_ads_schema: adwords_mq_test
 
   linkedin_source:
-    linkedin_source_schema: LINKEDIN_ADS
+    linkedin_source_schema: linkedin_ads
 
   netsuite_source:
-    netsuite_schema: NETSUITE_SUITEANALYTICS_MQ_TEST
+    netsuite_schema: netsuite_suiteanalytics_mq_test
   
   asana_source:
-    asana_schema: ASANA_MQ_DEMO
+    asana_schema: asana_mq_demo
