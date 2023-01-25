@@ -13,3 +13,5 @@ packages:
     version: 0.1.0
   - package: fivetran/zendesk
     version: 0.9.1
+  - package: fivetran/salesforce
+    version: 0.8.0
